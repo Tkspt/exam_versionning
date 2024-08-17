@@ -1,6 +1,6 @@
 import requests
+from secret import GITHUB_TOKEN
 
-GITHUB_TOKEN = "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"
 USERNAME = "Tkspt"
 
 def create_github_repo(repo_name):
